@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Social Media Feed</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel= "stylesheet" href= "https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href = "styles/style.css">
+  <script src = "feed.js"></script>
+</head>
+
+<body>
+
+<div class = "main panel panel-default z-depth-4">
+<div class = "panel-body">
+
+<div class="media">
+  <div class="media-left">
+    <img src="https://mms.businesswire.com/media/20190122005910/en/701785/5/Camila-x-MC.jpg" class="media-object circle">
+  </div>
+  <div class="media-body">
+    <p>Neo Motto <span class = "time">(13 min. ago)</span></p>
+	<span><i class = "fa fa-ellipsis-h right"></i></span>
+  </div>
+</div>
+
+<div class = "post">
+
+<img class = "not" src = "https://media2.s-nbcnews.com/j/newscms/2019_16/2822711/ss-190415-notre-dame-fire-mn-04_96c827a9102e4af198aa42513fd02e74.fit-760w.jpg">
+<p class = "iconsec"><i class = "fa fa-heart-o"></i>  &nbsp; <i class = "fa fa-share"></i> <span class = "right"><b>4 likes</b></span></p>
+<p class = "caption">My heart breaks <i class = "fa fa-frown-o"></i> &nbsp;<a href = "https://bbbootstrap.com">BBBootstrap.com</a></p>
+<p class = "read">Read 2 Comments <span class = "right"><b>Add Comment</b> <i class = "fa fa-comment-o"></i></span></p>
+</div>
+
+<div class = "menu">
+<center>
+<a href = "#"><i class = "fa fa-home"></i></a>
+<a href = "#"><i class = "fa fa-search"></i></a>
+<a href = "#"><i class = "fa fa-user"></i></a>
+</center>
+</div>
+
+<center><a href = "#" class = "btn" id = "open"><i class = "fa fa-plus"></i></a></center>
+
+
+
+
+
+
+</div>
+</div>
+
+  
+  
+<div class = "main panel panel-default z-depth-4">
+<div class = "panel-body">
+
+<div class="media">
+  <div class="media-left">
+    <img src="https://mms.businesswire.com/media/20190122005910/en/701785/5/Camila-x-MC.jpg" class="media-object circle">
+  </div>
+  <div class="media-body">
+    <p>Neo Motto <span class = "time">(13 min. ago)</span></p>
+	<span><i class = "fa fa-ellipsis-h right"></i></span>
+  </div>
+</div>
+
+<div class = "post">
+
+<img class = "not" src = "https://media2.s-nbcnews.com/j/newscms/2019_16/2822711/ss-190415-notre-dame-fire-mn-04_96c827a9102e4af198aa42513fd02e74.fit-760w.jpg">
+<p class = "iconsec"><i class = "fa fa-heart-o"></i>  &nbsp; <i class = "fa fa-share"></i> <span class = "right"><b>4 likes</b></span></p>
+<p class = "caption">My heart breaks <i class = "fa fa-frown-o"></i> &nbsp;<a href = "https://bbbootstrap.com">BBBootstrap.com</a></p>
+<p class = "read">Read 2 Comments <span class = "right"><b>Add Comment</b> <i class = "fa fa-comment-o"></i></span></p>
+</div>
+
+<div class = "menu">
+<center>
+<a href = "#"><i class = "fa fa-home"></i></a>
+<a href = "#"><i class = "fa fa-search"></i></a>
+<a href = "#"><i class = "fa fa-user"></i></a>
+</center>
+</div>
+
+<center><a href = "#" class = "btn" id = "open"><i class = "fa fa-plus"></i></a></center>
+
+
+
+
+
+
+</div>
+</div>
+
+  
+<div class = "main panel panel-default z-depth-4">
+<div class = "panel-body">
+
+<div class="media">
+  <div class="media-left">
+    <img src="https://mms.businesswire.com/media/20190122005910/en/701785/5/Camila-x-MC.jpg" class="media-object circle">
+  </div>
+  <div class="media-body">
+    <p>Neo Motto <span class = "time">(13 min. ago)</span></p>
+	<span><i class = "fa fa-ellipsis-h right"></i></span>
+  </div>
+</div>
+
+<div class = "post">
+
+<img class = "not" src = "https://media2.s-nbcnews.com/j/newscms/2019_16/2822711/ss-190415-notre-dame-fire-mn-04_96c827a9102e4af198aa42513fd02e74.fit-760w.jpg">
+<p class = "iconsec"><i class = "fa fa-heart-o"></i>  &nbsp; <i class = "fa fa-share"></i> <span class = "right"><b>4 likes</b></span></p>
+<p class = "caption">My heart breaks <i class = "fa fa-frown-o"></i> &nbsp;<a href = "https://bbbootstrap.com">BBBootstrap.com</a></p>
+<p class = "read">Read 2 Comments <span class = "right"><b>Add Comment</b> <i class = "fa fa-comment-o"></i></span></p>
+</div>
+
+<div class = "menu">
+<center>
+<a href = "#"><i class = "fa fa-home"></i></a>
+<a href = "#"><i class = "fa fa-search"></i></a>
+<a href = "#"><i class = "fa fa-user"></i></a>
+</center>
+</div>
+
+<center><a href = "#" class = "btn" id = "open"><i class = "fa fa-plus"></i></a></center>
+
+
+
+
+
+
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

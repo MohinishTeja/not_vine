@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Not Vine</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script> 
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+
+<script defer type="text/javascript" language="javascript" src="scripts/premier.js"></script>
+<link rel="stylesheet" href="styles/premier.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.js"></script>
+<script src="https://wzrd.in/standalone/buffer"></script>
+<!--<script src="https://www.jsdelivr.com/package/npm/ipfs-mini"></script>-->
+
+</head>
+
+<!-- partial:index.partial.html -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<nav class="navbar navbar-default">
+        <div class="container-fluid">
+            
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                
+                <img src="img/social-media.png" height="50px" width="50px" style="margin-top:-2%;">
+                <a class="navbar-brand" href="index.html" style="padding-left: 39%; margin-top: -45%;"><h2>Not Vine</h2></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="post.html">Post</a></li>
+                    <li><a href="comment.html">Post of the Day</a></li>
+                    <li><a href="premier.html">Premium</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+
+<div class="unlock-content locked">
+
+    <h1 class="tag_h" >Unlock the rest of the content!</h1>
+    <h6 class="tag_h6">Premier posts are currently locked 🔒</h6>
+    
+<p class="unlock-content locked" onclick="window.unlockProtocol && window.unlockProtocol.loadCheckoutModal()"><button class="button1">
+    Unlock 🔓!
+    </button></p>
+</div>
+
+
+<div class="unlock-content unlocked">
+    <h1 class="tag_h" style="margin-left: 35%;">Premium is Unlocked🔓!</h1>
+    <h2 class="tag_h6" style="margin-left: 43%;">Enjoy exclusive content</h2>
+
+
+    
+<div class = "main panel panel-default z-depth-4" style=" margin-top: -0.5%; margin-bottom: 3%;">
+    <div class = "panel-body">
+    
+    <div class="media">
+      <div class="media-left">
+        <img src="img/amber_prof.jpg" class="media-object circle">
+      </div>
+      <div class="media-body">
+        <p>Amber Heard <span class = "time">(10 min. ago)</span></p>
+      <span><i class = "fa fa-ellipsis-h right"></i></span>
+      </div>
+    </div>
+    
+    <div class = "post">
+    
+    <img class = "not" src = "img/amber.jpg">
+    <p class = "caption">It takes an army(of hari brushes)  <br>BTS<i class = "fa fa-frown-o"></i> &nbsp;<a href = "https://bbbootstrap.com" >@LorealParis</a></p>
+    </div>
+    
+    
+    
+    
+    
+    
+    </div>
+    </div>
+
+
+    <div class = "main panel panel-default z-depth-4" style=" margin-top: -0.5%; margin-bottom: 3%;">
+        <div class = "panel-body">
+        
+        <div class="media">
+          <div class="media-left">
+            <img src="img/spider_prof.jpg" class="media-object circle">
+          </div>
+          <div class="media-body">
+            <p>Spiderman:Movie <span class = "time">(53 min. ago)</span></p>
+          <span><i class = "fa fa-ellipsis-h right"></i></span>
+          </div>
+        </div>
+        
+        <div class = "post">
+        
+        <img class = "not" src = "img/spiderhome.jpg">
+        <p class = "iconsec"><i class = "fa fa-heart-o"></i>  &nbsp; <i class = "fa fa-share"></i> <span class = "right"><b>13 likes</b></span></p>
+        <p class = "caption"> Quick selfie with the crew <i class = "fa fa-frown-o"></i> &nbsp;<a href = "https://bbbootstrap.com">@TomHolland</a></p>
+        </div>
+        
+        
+        
+        
+        
+        
+        </div>
+        </div>
+        <div class = "main panel panel-default z-depth-4" style=" margin-top: -0.5%; margin-bottom: 3%;">
+            <div class = "panel-body">
+            
+            <div class="media">
+              <div class="media-left">
+                <img src="img/chopra_prof.jpg" class="media-object circle">
+              </div>
+              <div class="media-body">
+                <p>Priyanka Chopra <span class = "time">(1hr 40 min. ago)</span></p>
+              <span><i class = "fa fa-ellipsis-h right"></i></span>
+              </div>
+            </div>
+            
+            <div class = "post">
+            
+            <img class = "not" src = "img/priyanka.jpg">
+            <p class = "iconsec"><i class = "fa fa-heart-o"></i>  &nbsp; <i class = "fa fa-share"></i> <span class = "right"><b>28 likes</b></span></p>
+            <p class = "caption">Sneak Peek into my latest shoot with <i class = "fa fa-frown-o"></i> &nbsp;<a href = "https://bbbootstrap.com">@VogueMagazine</a></p>
+            </div>
+            
+            
+            
+            
+            
+            
+            </div>
+            </div>
+        
+</div>
+
+
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+
+
+
+
+
+
+
+<!-- Unlock scripts-->
+
+<script>
+    (function(d, s) {
+        var js = d.createElement(s),
+        sc = d.getElementsByTagName(s)[0];
+        js.src = "https://paywall.unlock-protocol.com/static/unlock.latest.min.js";
+        sc.parentNode.insertBefore(js, sc);
+    }(document, "script"));
+</script>
+
+<script>
+    var unlockProtocolConfig = {
+        "locks": {
+            "0x88fa5674f65285D88471b37d8f1571835D861A7A": {
+            "name": "new_test_lock",
+            network: 4
+            }
+        },
+        "icon": "img/cherrytree.png",
+        "callToAction": {
+            "default": "Please unlock to get more content"
+        }
+        }
+</script>
+
+
+</body>
+</html>
